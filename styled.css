@@ -1,0 +1,110 @@
+body{margin: auto;
+    padding: 50px;
+box-sizing: border-box;}
+
+body{font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-variant: normal;
+font-size: medium;
+background-color: a;
+background-position: 100px;
+}
+header{background-color:dodgerblue;
+color: #fff;
+padding: 1rem;
+text-align: center;
+}
+
+header nav ul{list-style: none;
+display: flex;
+justify-content: center;
+}
+
+header nav ul li{
+    margin: 20px;
+}
+
+header nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+h1{margin-top: 20px;}
+
+section{padding: 2rem;
+text-align: center;}
+
+.home{background-color: dodgerblue;
+color: #fff;}
+
+.about,{
+    background-color: dodgerblue;
+    margin: 2rem 0;
+}
+
+.home{font-size: medium;
+margin-top: auto;}
+
+
+
+.navbar{
+    background-color: palegoldenrod;
+    display: flex;
+    overflow: hidden;
+}
+.navbar a{
+float: left;
+padding: 15px 20px;
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+}
+
+.dropdown{
+    float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn{
+font-size: 20px;
+border: 1px solid orange;
+outline: none;
+color: bisque;
+position: absolute;
+
+background-color: inherit;
+cursor: pointer;
+}
+.dropdown-content{
+display: none;
+position: absolute;
+
+
+z-index: 1;
+}
+.dropdown-content a{
+float: none;
+color: black;
+padding: 10px 15px;
+display: block;
+text-align: left;
+text-decoration: none;
+border:1px solid plum;
+}
+.dropdown-content a:hover{background-color: darkcyan;}
+
+.dropdown:hover .dropdown-content{display: block;}
+
+.contact{
+background-color: dodgerblue;
+color: #fff;
+}
+
+
+
+
+
+
+
+
