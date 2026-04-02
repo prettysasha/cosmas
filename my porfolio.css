@@ -13,7 +13,6 @@ header{background-color:dodgerblue;
 color: #fff;
 padding: 1rem;
 text-align: center;
-
 }
 
 header nav ul{list-style: none;
@@ -32,10 +31,8 @@ font-weight: bold;
 }
 h1{margin-top: 20px;}
 
-
 section{padding: 2rem;
 text-align: center;}
-
 
 .home{background-color: dodgerblue;
 color: #fff;}
