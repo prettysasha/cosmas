@@ -12,18 +12,6 @@ body{
     background-position: center;
 
 }
-@media (max-width: 768px){
-    .home{
-        flex-direction: column;
-        text-align: center;
-    }
-    .home .btn{
-        margin-bottom: 20px;
-    }
-    .home-img .img-box{
-        width: 80vw;
-        height: 80vw;
-    }
 }
 
 .container{
@@ -119,7 +107,7 @@ color:black;
 }
 
 .loader .social-icon a:hover{
-    background-color: seagreen;
+    background-color: white;
     color:navy;
 }
 .home-image img-box{
@@ -135,10 +123,10 @@ width: 20vw;
     position: relative;
     height: 40vw;
     border-radius: 300px;
-    border: 2px solid white;
+    border: 1px solid white;
     box-shadow: 0 0 20px 0 white;
     overflow: hidden;
-    top: 30px;
+    top: 20px;
 
 }
 
@@ -176,10 +164,91 @@ position: absolute;
     transform: scale(0.9);
    
     }
-.pal{
-    list-style: none;
-    margin-top: 5px;
-    color: black;
+.footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: 2px solid white;
+    backdrop-filter: blur(12px);
+    margin-top: 50px;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 5% 0;
+        gap: 20px;
+    }
+
+    .loader h1 {
+        font-size: 35px;
+    }
+
+    .loader h2 {
+        font-size: 20px;
+    }
+
+    .home-img .img-box {
+        width: 60vw;
+        height: 60vw;
+        margin: 0 auto;
+    }
+
+    .contact {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .container {
+        transform: scale(1);
+        padding: 0;
+    }
+
+    .loader .social-icon {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .loader .social-icon a {
+        margin: 0 10px;
+    }
 }
 
 
